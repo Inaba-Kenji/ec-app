@@ -12,7 +12,7 @@ export const signInAction = (userState) => {
 
 
 export const SIGN_OUT = "SIGN_OUT";
-export const signInAction = () => {
+export const signOutAction = () => {
   return {
     type: "SIGN_OUT",
     payload: {
@@ -23,4 +23,3 @@ export const signInAction = () => {
   }
 };
 
-export default actions
