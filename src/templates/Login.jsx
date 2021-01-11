@@ -5,6 +5,8 @@ import { signIn } from "../reducks/users/operations";
 
 const Login = () => {
   const dispatch = useDispatch()
+  const selector = useSelector(state => state)
+  console.log(selector.users);
 
   return(
     <div>
